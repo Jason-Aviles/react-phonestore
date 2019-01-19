@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 
-export const  Yellow_btn = styled.button ` 
+export const  Yellowbtn = styled.button ` 
 text-transform:capitalize;
 font-size:1.4rem;
 background: transparent;

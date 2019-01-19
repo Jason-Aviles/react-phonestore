@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import {ProductConsumer} from '../../Context-api'
 import {ButtonContainer} from '../Button/Button'
-import {Yellow_btn} from '../Button/Yellow_btn'
+import {Yellowbtn} from '../Button/Yellow_btn'
 import {Link} from 'react-router-dom'
 
 class Modal extends Component {
@@ -31,9 +31,9 @@ class Modal extends Component {
                                        </Link>
 
                                        <Link to='/cart'>
-                                           <Yellow_btn onClick={ () =>{closeModal()} } >
+                                           <Yellowbtn onClick={ () =>{closeModal()} } >
                                                go to cart
-                                           </Yellow_btn>
+                                           </Yellowbtn>
                                        </Link>
                                    
                                     </div>

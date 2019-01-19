@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {ProductConsumer} from '../../Context-api'
 import {Link} from 'react-router-dom'
 import {ButtonContainer} from '../Button/Button'
-import {Yellow_btn} from '../Button/Yellow_btn'
+import {Yellowbtn} from '../Button/Yellow_btn'
 class Details extends Component {
     render() {
         return (
@@ -44,10 +44,10 @@ class Details extends Component {
                                   <Link to='/'><ButtonContainer>
                                       back to products</ButtonContainer>
                                   </Link>
-                                  <Yellow_btn disabled={inCart?true:false}
+                                  <Yellowbtn disabled={inCart?true:false}
                                   onClick={() => {value.addToCart(id)}}>
                                       {inCart ? 'inCart' : 'add to cart'}
-                                  </Yellow_btn>
+                                  </Yellowbtn>
                               </div>
                         </div>
 
